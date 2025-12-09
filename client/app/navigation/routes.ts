@@ -3,10 +3,6 @@ import { IRoute } from "./navigation.types";
 import Auth from "components/screens/home/auth/Auth";
 
 export const routes: IRoute[] = [
-  {
-    name: 'Auth',
-    component: Auth
-  },
     {
     name: 'Home',
     component: Home
