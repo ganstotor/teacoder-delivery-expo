@@ -1,5 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Auth from 'components/screens/home/auth/Auth';
+import Auth from 'components/screens/auth/Auth';
 import { useAuth } from 'hooks/useAuth';
 import { FC } from 'react';
 
@@ -28,3 +28,5 @@ const PrivateNavigator: FC = () => {
 		</Stack.Navigator>
 	);
 };
+
+export default PrivateNavigator
